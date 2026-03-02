@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test-1</title>
+    <link rel="stylesheet" href="styles/rest.css">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <link rel="stylesheet" href="styles/style-769px-1279px.css">
+    <link rel="stylesheet" href="styles/style-481px-768px.css">
+    <link rel="stylesheet" href="styles/style-0px-480px.css">
+</head>
+<body>
+<div class="wrapper">
+    <div id="wrapperTopBlok">
+        <h1>Test</h1>
+        <form id="formNameValuePair">
+                <label for="InputNameValuePair">Enter the Name/Value pair in the format Name=Value, where both name and value may contain only letters and digits.</label>
+                <input type="text" name="NameValuePair" id="InputNameValuePair" placeholder="Name=Value">
+            <button id="buttonAdd">Add</button>
+        </form>
+        <div id="inCorrectFormat" ></div>
+    </div>
+    <div id="wrapperBottomBlok">
+            <h4>Name/Value Pair List</h4>
+            <p id="texForFieldAndroid"></p>
+            <div id="wrapperOutputFieldButtons">
+                <div id="outputField">
+                    <select id="myList" multiple></select>
+                </div>
+                <div id="wrapperButtons">
+                    <button id="SortByName">Sort by Name</button>
+                    <button id="SortByValue">Sort by Value</button>
+                    <button id="delete">Delete</button>
+                    <div id="deleteText"></div>
+                 </div>
+            </div>
+    </div>
+</div>
+
+
+<script src="scripts/main.js"></script>
+</body>
+</html>

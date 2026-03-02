@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 1rem;
+    }
+    .wrapper{
+        width: 85%;
+        padding: 0.6rem;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        min-height: 85vh;
+        margin: 0.5rem auto;
+    }
+    h1{
+        margin-bottom: 0.5rem;
+        font-size: 2.2em;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+
+    }
+    form>label{
+        width: 100%;
+    }
+    #InputNameValuePair{
+        width: 100%;
+    }
+    input{
+        font-size: 1.25rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    form input::placeholder{
+        font-size: 1.25rem;
+    }
+    #buttonAdd{
+        width: auto;
+        align-self: start;
+    }
+    button{
+        font-size: 1.1rem;
+    }
+    #inCorrectFormat{
+        width: 100%;
+        min-height: 2.5rem;
+        margin-bottom: 0;
+    }
+/*------------------------BottomBlok--------------------------------------------*/
+    h4{
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+    #wrapperBottomBlok{
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    h4{
+        grid-area: 1;
+        width: 100%;
+    }
+    #texForFieldAndroid{
+        grid-area: 2;
+        width: 100%;
+    }
+
+    #wrapperOutputFieldButtons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-area: 3;
+    }
+    #wrapperButtons{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #outputField{
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    #delete{
+        margin-top: 0.5rem;
+    }
+}
