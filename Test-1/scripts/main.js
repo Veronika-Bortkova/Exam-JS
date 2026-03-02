@@ -1,7 +1,6 @@
 let form = document.getElementById("formNameValuePair");
 let selectNameValue = document.getElementById("myList");
 let inputNameValuePair = document.getElementById("InputNameValuePair");
-// let buttonAdd = document.getElementById("buttonAdd");
 let DivInCorrectFormat = document.getElementById("inCorrectFormat");
 let btns = document.getElementsByTagName("button");
 let input = document.getElementById("InputNameValuePair");
